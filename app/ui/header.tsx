@@ -418,7 +418,7 @@ export default function Header() {
           </button>
           {getDropdownNavs([
             {
-              name: "Appearance",
+              name: "appearance",
               jsx: (
                 <div className="flex justify-between items-center">
                   Appearance
@@ -432,7 +432,7 @@ export default function Header() {
               ),
             },
             {
-              name: "Appearance",
+              name: "links",
               jsx: (
                 <div className="h-full">
                   <div className="border-b my-2"></div>

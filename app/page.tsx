@@ -7,13 +7,22 @@ import Footer from "@/app/ui/home/footer";
 
 export default function Home() {
   return (
-    <main className="">
+    <div>
       <Hero />
       <SpecialSponsor />
       <Highlights />
       <Sponsors />
       <Sitemap />
       <Footer />
-    </main>
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+
+    </div>
   );
 }
